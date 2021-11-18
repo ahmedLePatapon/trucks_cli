@@ -14,7 +14,7 @@
         . le nombre de camion
             pr chaque camion le volume en m3
         .le type de camion
-    * [x] verifier chaque champs avant de passer à la question suivante
+    * [ ] verifier chaque champs avant de passer à la question suivante
     * [x] en fin de questionnaire resumé des information + demande de confirmation
 
 * [ ] ajout test unitaire pr les functions de recuparation des données
