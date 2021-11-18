@@ -1,7 +1,7 @@
 # trusk_cli
 ## Initialisation
 > Pour lancer le _chatBot_ :
-```npm start``` dans un tarminal ouvert à la racine du projet
+```npm start``` dans un terminal ouvert à la racine du projet
 
 ## TODO
 * [x] le chatBot doit poser des questions
