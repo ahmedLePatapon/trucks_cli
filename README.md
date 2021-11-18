@@ -1,4 +1,6 @@
 # trusk_cli
+
+## TODO
 * [x] le chatBot doit poser des questions
     * [x] check si des datas sont sauvegardées dans redis
     * [x] poser les differentes questions
@@ -11,3 +13,5 @@
         .le type de camion
     * [x] verifier chaque champs avant de passer à la question suivante
     * [x] en fin de questionnaire resumé des information + demande de confirmation
+
+* [ ] ajout test unitaire pr les functions de recuparation des données
