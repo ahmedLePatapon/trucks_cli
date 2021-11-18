@@ -12,7 +12,7 @@ async function getCompanyName() {
             message: 'Quel est le nom de votre société?'
         });
 
-        if (answer.companyName === '') {
+        if (answer.companyName === '' || !utils.validation.checkIfName(answer.companyName)) {
             return await getCompanyName();
         } else {
             companyName = answer.companyName;

@@ -19,7 +19,7 @@ async function getTrucksType(index) {
             }
         );
 
-        if (answer.type === '') {
+        if (answer.type === '' || !utils.validation.checkIfName(answer.type)) {
             return await getTrucksType(index);
         } else {
             type = answer.type;

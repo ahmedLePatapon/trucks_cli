@@ -5,10 +5,14 @@ const chalk = require('chalk');
 const utils = require('../utils')
 
 const { hgetAllAsync, redisClient } = require('./redis');
+
 const intro = chalk.blueBright(
-    figlet.textSync("BIENVENUE CHEZ TRUSK ", { horizontalLayout: "full" })
+    figlet.textSync("BIENVENUE CHEZ TRUSK ", { horizontalLayout: "full", width: 80 })
 );
+
 console.log(intro);
+console.log(chalk.blueBright("BIENVENUE CHEZ TRUSK "));
+
 async function getName() {
     let data = await hgetAllAsync('user');
     let name = data && data.name;

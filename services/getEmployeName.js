@@ -20,7 +20,7 @@ async function getEmployeName(index) {
                 return answer
             }
         });
-        if (answer.employeName === '') {
+        if (answer.employeName === '' || !utils.validation.checkIfName(answer.employeName)) {
             return await getEmployeName(index);
         } else {
             employeName = answer.employeName;
